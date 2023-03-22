@@ -1,0 +1,41 @@
+/* Helper Classes */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+.container {
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 3rem;
+    width: auto;
+}
+
+nav a {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: green;
+    padding: 1rem 0.5rem;
+}
+
+
+
+
+/* Hamburger Menu */
+.hamburger {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
