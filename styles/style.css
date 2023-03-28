@@ -179,3 +179,106 @@ footer {
 }
 
 /* About Me Page */
+.alt-page-h2 {
+    text-decoration: none;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.underline-img {
+    width: 100vh;
+    height: 1rem;
+
+    justify-content: center;
+}
+
+.underline {
+    background-color: #02C1D6;
+    display: block;
+}
+
+.headshot-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    height: 23rem;
+    width: auto;
+}
+
+.about-me-logo {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 1rem 0;
+}
+
+.about-page-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #02C1D6;
+    font-size: 0.95rem;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color:#24C639;
+    text-decoration: underline #02C1D6 25%;
+    text-underline-offset: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+
+.h3-header {
+    margin-top: 5rem;
+}
+.h3-subheader {
+    margin-top: 5rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.list-items {
+    font-family: 'Open Sans', sans-serif;
+    color: #02C1D6;
+    font-size: 1.25rem;
+}
+
+.list-items li {
+    margin: 1rem 0;
+}
+
+.education-header {
+    margin-top: 6rem;
+}
+
+.edu-list {
+    text-align: center;
+}
+.contact-me-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.contact-me p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.contact {
+    margin-bottom: 8rem;
+}
