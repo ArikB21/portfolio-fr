@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 311 358.32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #22c1d6;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #24d339;
+      }
+
+      .cls-2 {
+        font-family: ITCAvantGardePro-Md, 'ITC Avant Garde Gothic Pro';
+        font-size: 42px;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        letter-spacing: .02em;
+      }
+
+      .cls-4 {
+        font-family: ITCAvantGardePro-Bk, 'ITC Avant Garde Gothic Pro';
+        font-size: 24px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <polygon class="cls-3" points="83.86 0 24.85 147.49 196.66 147.49 196.66 136.98 40.4 136.6 91 9.79 221 9.79 245.68 72.79 257.09 72.79 227.86 0 83.86 0"/>
+    <polygon class="cls-1" points="19.15 161.99 30.96 161.99 21 188.79 291.26 188.43 254.97 96.69 81.25 96.69 102.59 42.78 156 42.79 156 53.79 109.85 53.42 97.86 86 262.23 86.32 306.8 198.79 5.46 198.79 19.15 161.99"/>
+    <text class="cls-2" transform="translate(7.01 261.13)"><tspan x="0" y="0">A</tspan><tspan class="cls-5" x="28.73" y="0">r</tspan><tspan class="cls-7" x="43.05" y="0">i</tspan><tspan x="53.25" y="0">k Blaushtein</tspan></text>
+    <text class="cls-4" transform="translate(66 303.64)"><tspan x="0" y="0">g</tspan><tspan class="cls-6" x="16.15" y="0">r</tspan><tspan class="cls-8" x="23.21" y="0">aphic design.</tspan></text>
+  </g>
+</svg>

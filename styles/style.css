@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
+.is-flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+}
+
+
+/* Navigation */
 
 .container {
     padding: 1rem 2rem;
@@ -22,7 +32,7 @@ nav a {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: green;
+    color: #24C639;
     padding: 1rem 0.5rem;
 }
 
@@ -43,3 +53,129 @@ nav a {
 .idesign-mobile {
     margin-top: 5rem;
 }
+
+/* Buttons */
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin: 2.3rem 0;
+}
+.view-work-btn {
+    background-color: #02C1D6;
+    color: ghostwhite;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 5rem;
+}
+
+/* Connector Line */
+.connector-line {
+    display: flex;
+    justify-content: center;
+}
+.connector-line-img {
+    height: 11.625rem;
+    width: 0.75rem;
+}
+
+/* Section One */
+section {
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color:#24C639;
+    text-decoration: underline #02C1D6 25%;
+    text-underline-offset: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.feat-imgs {
+    margin-top: 8rem;
+}
+
+.ft-img {
+    margin-bottom: 4rem;
+}
+
+/* Section Two */
+ h2 {
+    font-family: 'Open Sans', sans-serif;
+    color:#24C639;
+    text-decoration: underline #02C1D6 25%;
+    text-underline-offset: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+
+ .logo-section {
+    justify-content: center;
+    margin-top: 8rem;
+ }
+
+ .full-logo-img {
+    height: 15rem;
+    width: auto;
+ }
+ 
+ .about-me-txt {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+ }
+
+ .about-me-txt p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #24C639;
+    text-align: center;
+ }
+
+ .learn-more-btn {
+    background-color: #02C1D6;
+    color: ghostwhite;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.75rem 3.25rem;
+}
+
+/* Footer */
+footer {
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.footer-logo {
+    height: 4rem;
+    width: auto;
+}
+
+.footer-logo-section {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer-text {
+    margin: 2rem 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    color: #24C639;
+}
+
+.icon-img {
+    padding: 0 0.8rem;
+}
+
+/* About Me Page */
