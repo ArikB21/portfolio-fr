@@ -10,12 +10,21 @@
 <body>
     <header>
         <div class="container">
-            <div class="navbar">
-                <a href=""><img class="logo-img" src="images/ab-logo.svg" alt=""></a>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About Me</a>
-                    <a href="projects.html">Projects</a>
+            <div class="nav-container">
+                <a href="index.html"><img class="logo-img" src="images/ab-logo.svg" alt=""></a>
+                <nav class="navbar">
+                    <div class="is-flex">
+                        <ul class="is-flex nav-menu">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        </ul>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -125,17 +134,17 @@
     <Footer class="is-flex">
         <div>
             <div class="footer-logo-section">
-                <img class="footer-logo" src="images/ab-logo.svg" alt="Footer Logo">
+                <a href="index.html"><img class="footer-logo" src="images/ab-logo.svg" alt="Footer Logo"></a>
             </div>
             <div class="social-media-icons">
-                <img class="icon-img" src="images/social-media-1.png" alt="Linkedin Icon">
-                <img class="icon-img" src="images/social-media-2.png" alt="Linkedin Icon">
+                <a href="https://www.linkedin.com/in/arik-blaushtein-82a906258"><img class="icon-img" src="images/social-media-1.png" alt="Linkedin Icon"></a>
+                <a href="https://www.youtube.com/@arikblaushtein5583"><img class="icon-img" src="images/social-media-2.png" alt="Youtube Icon"></a>
             </div>
             <div>
                 <p class="footer-text">&copy; Arik Blaushtein - 2023</p>
             </div>
         </div>
      </Footer>
-    
+<script src="scripts/script.js"></script>
 </body>
 </html>
