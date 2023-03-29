@@ -350,3 +350,42 @@ margin: 4.6rem 0rem 0rem 0;
 }
 
 /* Tea Botanical - Page */
+.project-page-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1.1rem;
+    padding: 0 3.5rem;
+    margin-top: -0.25rem;
+}
+
+.tea-botanical-gallery1 {
+    margin-top: 2rem;
+}
+
+.tea-botanical-gallery2 {
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+.tea-botanical-ad {
+    margin-top: 3rem;
+}
+
+.project-page-text-btm {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1.1rem;
+    padding: 0 3.5rem;
+    margin-top: 5rem;
+}
+
+.made-using-txt {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1rem;
+    padding: 0 5rem;
+    margin-top: 5rem;
+}
