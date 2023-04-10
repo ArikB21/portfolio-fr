@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1918 595">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #24c639;
+      }
+
+      .cls-4 {
+        fill: #22c1d6;
+      }
+
+      .cls-4, .cls-5, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4, .cls-2 {
+        font-size: 26px;
+      }
+
+      .cls-4, .cls-2, .cls-3 {
+        font-family: ITCAvantGardePro-Md, 'ITC Avant Garde Gothic Pro';
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-size: 54px;
+      }
+
+      .cls-10 {
+        letter-spacing: .02em;
+      }
+
+      .cls-11 {
+        fill: #02c1d6;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Group_24" data-name="Group 24">
+      <g id="I_design." data-name="I design." class="cls-5">
+        <text class="cls-3" transform="translate(844 88)"><tspan x="0" y="0">I design</tspan><tspan class="cls-6" x="208.65" y="0">.</tspan></text>
+      </g>
+      <g id="Green_Graphic" data-name="Green Graphic">
+        <path id="Green_Graphic-2" data-name="Green Graphic-2" class="cls-1" d="m0,0h1075v17H0V0Z"/>
+        <rect id="Green_Graphic-3" data-name="Green Graphic-3" class="cls-1" x="1073" width="15" height="595"/>
+      </g>
+      <g id="Blue_Graphic" data-name="Blue Graphic">
+        <rect id="Blue_Graphic-2" data-name="Blue Graphic-2" class="cls-11" x="844" y="117.5" width="1074" height="15"/>
+        <path id="Blue_Graphic-3" data-name="Blue Graphic-3" class="cls-11" d="m843.79,117.5v477.01h-15.79V117.5h15.79Z"/>
+      </g>
+      <g id="Graphic_Design." data-name="Graphic Design." class="cls-5">
+        <text class="cls-2" transform="translate(904.43 317)"><tspan x="0" y="0">G</tspan><tspan class="cls-9" x="21.61" y="0">r</tspan><tspan class="cls-10" x="29.72" y="0">a</tspan><tspan class="cls-7" x="48.26" y="0">phic</tspan></text>
+        <text class="cls-2" transform="translate(909.57 353)"><tspan x="0" y="0">Design</tspan><tspan class="cls-8" x="87.28" y="0">.</tspan></text>
+      </g>
+      <g id="UI_UX." data-name="UI UX." class="cls-5">
+        <text class="cls-4" transform="translate(918.24 485)"><tspan x="0" y="0">UI/UX</tspan><tspan class="cls-8" x="69.94" y="0">.</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
