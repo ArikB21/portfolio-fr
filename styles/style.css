@@ -107,11 +107,6 @@ nav a {
 }
 
 /* Initial Idesign Image media Queries */
-@media(min-width: 800px) {
-    .idesign-mobile img {
-        width: 80%;
-    }
-}
 
 /* @media(min-width: 900px) {
     .idesign-mobile img {
@@ -125,13 +120,20 @@ nav a {
     }
 } */
 
-
-@media(min-width: 1200px) {
+@media(min-width: 768px) {
     .idesign-mobile img {
-        width: 30%;
+        width: 68.5%;
     }
 
 }
+
+@media(min-width: 1200px) {
+    .idesign-mobile img {
+        width: 35%;
+    }
+
+}
+
 
 
 
@@ -294,7 +296,7 @@ h1 {
 }
 
 .feat-imgs {
-    margin-top: 8rem;
+    margin: 8rem 0rem 4rem 0rem;
 }
 
 .ft-img {
