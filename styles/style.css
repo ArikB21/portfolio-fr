@@ -42,12 +42,11 @@ nav a {
 }
 
 .hamburger {
-    display: none;
     cursor: pointer;
 }
 
 .bar {
-    display: block;
+    display: none;
     width: 3rem;
     height: 0.5rem;
     margin: 0.5rem auto;
@@ -56,8 +55,9 @@ nav a {
     background-color: #24C639;
 }
 
+/* Nav Bar and Hamburger Menu Media Queries */
 @media(max-width: 768px) {
-    .hamburger {
+    .bar {
         display: block;
     }
 
@@ -103,8 +103,287 @@ nav a {
     .nav-menu.active {
         left: 0;
     }
+
 }
 
+/* Initial Idesign Image media Queries */
+
+/* @media(min-width: 900px) {
+    .idesign-mobile img {
+        width: 72.5%;
+    }
+} */
+
+/* @media(min-width: 1000px) {
+    .idesign-mobile img {
+        width: 50%;
+    }
+} */
+
+@media(min-width: 768px) {
+    .idesign-mobile img {
+        width: 68.5%;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .idesign-mobile img {
+        width: 35%;
+    }
+
+}
+
+
+
+
+
+
+/* Desktop Media Queries 1200 */
+@media(min-width: 1200px) {
+
+    /* Navigational Items */
+    nav a {
+        font-size: 1.25rem;
+    }
+
+    /* Home Page Media Queries */
+
+    .btn-div {
+        margin: 6rem 0 !important;
+    }
+
+    .about-me-txt p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15rem;
+        font-weight: 400;
+        color: #24C639;
+        text-align: center;
+        padding: 0 4rem;
+     }
+
+     h1 {
+        font-size: 1.5rem;
+     }
+
+     .feat-imgs {
+        display: flex;
+        margin-top: 12rem !important; 
+     }
+
+     .ft-img {
+        margin: 0 3rem;
+        width: 20rem !important;
+        height: auto;
+     }
+
+     h2 {
+        font-size: 1.5rem;
+     }
+
+     .abt-me-short {
+        margin: 6rem 0;
+     }
+
+     .about-me-txt {
+        margin: 4rem 0rem!important;
+     }
+
+     /* .full-logo-img {
+        padding: 0 24rem;
+     } */
+
+     .logo-section img {
+        width: 18rem !important;
+        height: auto;
+        margin-top: 1.5rem;
+     }
+
+     .about-me-txt p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem !important;
+        font-weight: 400;
+        color: #24C639;
+        text-align: center;
+        padding: 0rem 32rem !important;
+     }
+
+     .learn-more-btn {
+        font-size: 1.75rem !important;
+        margin-bottom: 1rem;
+     }
+
+
+     .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .footer-logo {
+        height: 4rem !important;
+        width: auto;
+     }
+
+     .social-media-icons {
+        margin-left: 8rem;
+     }
+
+     .social-media-icons a {
+        margin-left: 0rem;
+     }
+
+     /* About Page Media Queries */
+     .alt-page-h2 {
+        font-size: 2rem !important;
+     }
+
+     .about-section {
+        display: flex;
+        width: 90%;
+        align-content: center;
+        margin-bottom: 14rem;
+        margin-top: 3rem;
+     }
+     
+     .about-content {
+        align-items: flex-start;
+     }
+
+     .about-me-logo img {
+        margin-top: 1rem;
+        width: 18.125rem;
+        height: auto;
+     }
+
+     .about-page-text p {
+        padding: 0 18rem;
+        font-size: 1.1rem;
+     }
+
+     .h3-header {
+        font-size: 1.5rem;
+     }
+
+     .h3-subheader {
+        margin-top: 10rem !important;
+        font-size: 1.4rem !important;
+     }
+
+     .list-items li {
+        font-size: 1.25rem;
+     }
+
+     .education-section {
+        margin-top: 12rem !important;
+     }
+     
+    .contact {
+        margin: 10rem 0 14rem 0 !important;
+    }
+ 
+   /* Projects Page Media Queries */
+    .tea-brand-image {
+        width: 33.5rem !important;
+        height: auto !important;
+    }
+
+    .tea-prod-img {
+        width: 18rem !important;
+    }
+
+    .choc-prod-img {
+        width: 18rem !important;
+    }
+
+    .vesture-brand-image {
+        margin-bottom: 3rem;
+    }
+
+    .ves-prod-img {
+        width: 18rem !important;
+    }
+
+    .sammys-brand-image {
+        margin-bottom: 2rem !important;
+    }
+
+    .sam-prod-img {
+        width: 18rem !important;
+    }
+
+    /* Tea Botanical Project Page */
+    .tea-page-logo img {
+        width: 42.563rem !important;
+    }
+    .tea-botanical-gallery2 img {
+        width: 24rem;
+        height: auto;
+    }
+
+    /* .tea-botanical-gallery4 {
+
+    } */
+
+    .project-page-text {
+        margin: 5rem 0 !important;
+    }
+
+    .tea-gallery-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tea-gallery-section img {
+        margin: 2rem 0.5rem;
+        width: 29.5rem !important;
+    }
+
+
+    .tea-botanical-gallery1 img {
+        width: 60rem !important;
+        height: auto;
+    }
+
+    .tea-ad-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tea-botanical-ad img {
+        height: auto;
+    }
+
+    .ad-1 img {
+        width: 32rem;
+        height: auto;
+    }
+
+    .ad-2 img {
+        width: 12rem;
+        height: auto;
+    }
+
+    .tea-botanical-gallery2 img {
+        width: 28rem;
+        height: auto;
+    }
+
+
+
+    .made-using-txt {
+        margin: 12rem 0 10rem 0 !important;
+    }
+     
+    .tea-style-gallery {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+}
 
 
 /* Hamburger Menu */
@@ -122,7 +401,10 @@ nav a {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+
 
 /* Buttons */
 .btn-div {
@@ -165,11 +447,12 @@ h1 {
 }
 
 .feat-imgs {
-    margin-top: 8rem;
+    margin: 8rem 0rem 4rem 0rem;
 }
 
 .ft-img {
     margin-bottom: 4rem;
+    width: 12.25rem;
 }
 
 /* Section Two */
@@ -224,7 +507,7 @@ footer {
 }
 
 .footer-logo {
-    height: 4rem;
+    height: 3rem;
     width: auto;
 }
 
@@ -370,8 +653,15 @@ h3 {
     justify-content: center;
 }
 
+.tea-brand-image {
+    width: 26.875rem;
+    height: auto;
+}
+
 .tea-prod-img {
     margin:  0.4rem;
+    width: 10.875rem;
+    height: auto;
 }
 
 .view-work-btn-sm {
@@ -385,10 +675,14 @@ h3 {
 
 .choc-prod-img {
     margin: 0.4rem;
+    width: 10.875rem;
+    height: auto; 
 }
 
 .choc-brand-image {
-    margin: 4.6rem 0rem 2rem 0;
+    margin: 4.6rem 0rem 4.5rem 0;
+    width: 18rem;
+    height: auto;
 }
 
 /* Vesture */
@@ -411,7 +705,7 @@ h3 {
 
 .sam-prod-img {
     margin: 0.4rem;
-    width: 194px;
+    width: 10.875rem;
     height: auto;
 }
 
@@ -424,13 +718,22 @@ margin: 4.6rem 0rem 0rem 0;
 }
 
 /* Tea Botanical - Page */
+.tea-page-logo img {
+    width: 30rem;
+    height: auto;
+}
+
+.tea-botanical-gallery1 img {
+    width: 24rem;
+    height: auto;
+}
 .project-page-text {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #24C639;
     font-size: 1.1rem;
     padding: 0 3.5rem;
-    margin-top: -0.25rem;
+    margin: 2rem 0rem;
 }
 
 .tea-botanical-gallery1 {
@@ -439,9 +742,25 @@ margin: 4.6rem 0rem 0rem 0;
 
 .tea-botanical-gallery2 {
     margin-top: 0.5rem;
-    gap: 0.5rem;
 }
 
+.gallery-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tea-gallery-section img {
+    width: 24rem;
+    height: auto;
+}
+.tea-ad-section {
+    align-items: center;
+}
+
+.tea-ad-section img {
+    width: 24rem;
+    margin: 1.5rem 0.5rem;
+}
 .tea-botanical-ad {
     margin-top: 3rem;
 }
@@ -463,3 +782,20 @@ margin: 4.6rem 0rem 0rem 0;
     padding: 0 5rem;
     margin-top: 5rem;
 }
+
+.ad-1 {
+    display: flex !important;
+}
+
+.tea-botanical-gallery1 img {
+    width: 24rem;
+    height: auto;
+}
+
+.tea-botanical-gallery2 img {
+    width: 24rem;
+    height: auto;
+}
+
+
+
