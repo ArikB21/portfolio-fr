@@ -46,7 +46,7 @@ nav a {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: #24C639;
+    color: #02C1D6;
     padding: 1rem 0.5rem;
     list-style-type: none;
 }
@@ -207,7 +207,7 @@ nav a {
     /* Home Page Media Queries */
 
     .btn-div {
-        margin: 6rem 0 !important;
+        margin: 3rem 0rem !important;
     }
 
     .about-me-txt p {
@@ -361,7 +361,7 @@ nav a {
  
    /* Projects Page Media Queries */
     .tea-brand-image {
-        width: 33.5rem !important;
+        width: 40rem !important;
         height: auto !important;
     }
 
@@ -369,12 +369,19 @@ nav a {
         width: 18rem !important;
     }
 
+    .choc-brand-image {
+        width: 24rem !important;
+        height: auto !important;
+    }
+
     .choc-prod-img {
         width: 18rem !important;
     }
 
     .vesture-brand-image {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
+        width: 32rem !important;
+        height: auto !important;
     }
 
     .ves-prod-img {
@@ -382,7 +389,8 @@ nav a {
     }
 
     .sammys-brand-image {
-        margin-bottom: 2rem !important;
+        margin-bottom: 1rem !important;
+        width: 20rem !important;
     }
 
     .sam-prod-img {
@@ -391,7 +399,7 @@ nav a {
 
     /* Tea Botanical Project Page */
     .tea-page-logo img {
-        width: 42.563rem !important;
+        width: 50rem !important;
     }
     .tea-botanical-gallery2 img {
         width: 24rem;
@@ -462,6 +470,11 @@ nav a {
         justify-content: center;
     }
 
+    .choc-page-logo img {
+        width: 28rem !important;
+        height: auto;
+    }
+
     /* Vesture Page */
     /* .vesture-gallery-section {
         display: flex;
@@ -503,6 +516,11 @@ nav a {
 
 
 /* Buttons */
+nav a:hover {
+    color: #24C639;
+    transition: 0.5s;
+
+}
 .btn-div {
     display: flex;
     justify-content: center;
@@ -515,6 +533,17 @@ nav a {
     font-size: 1.6rem;
     padding: 1rem 5rem;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #24C639;
+    transition: 0.5s;
+    transform: scale(105%);
+}
+
+.feat-imgs img:hover {
+    transform: scale(110%);
+    transition: 0.5s ease-in-out;
 }
 
 /* Connector Line */
@@ -785,6 +814,8 @@ h3 {
 /* Vesture */
 .vesture-brand-image {
     margin-top: 3rem;
+    width: 22rem;
+    height: auto;
 }
 
 .ves-prod-img {
@@ -796,7 +827,7 @@ h3 {
 /* Sammys */
 
 .sammys-brand-image {
-    width: 194px;
+    width: 16rem;
     height: auto;
 }
 
@@ -906,8 +937,7 @@ margin: 4.6rem 0rem 0rem 0;
 }
 
 .vesture-gallery-section img {
-    /* width: 37.5rem; */
-    width: 24rem;
+    width: 37.5rem;
     height: auto;
 }
 
