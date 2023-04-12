@@ -173,7 +173,7 @@ nav a {
 
      .ft-img {
         margin: 0 3rem;
-        width: 20rem !important;
+        width: 18rem !important;
         height: auto;
      }
 
@@ -240,7 +240,7 @@ nav a {
 
      .about-section {
         display: flex;
-        width: 90%;
+        width: 80%;
         align-content: center;
         margin-bottom: 14rem;
         margin-top: 3rem;
@@ -261,6 +261,11 @@ nav a {
         font-size: 1.1rem;
      }
 
+     .skills-section {
+        display: flex;
+        justify-content: center;
+     }
+
      .h3-header {
         font-size: 1.5rem;
      }
@@ -269,6 +274,11 @@ nav a {
         margin-top: 10rem !important;
         font-size: 1.4rem !important;
      }
+
+     .h3-subheader {
+        padding: 0rem 4rem;
+     }
+     
 
      .list-items li {
         font-size: 1.25rem;
@@ -281,6 +291,16 @@ nav a {
     .contact {
         margin: 10rem 0 14rem 0 !important;
     }
+
+    .contact-section {
+        display: flex;
+    }
+
+    .contact-me-text-container p {
+        margin: 2rem 4rem;
+
+    }
+
  
    /* Projects Page Media Queries */
     .tea-brand-image {
@@ -327,7 +347,12 @@ nav a {
 
     .project-page-text {
         margin: 5rem 0 !important;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        text-align: right;
     }
+
 
     .tea-gallery-section {
         display: flex;
@@ -379,6 +404,16 @@ nav a {
         display: flex;
         justify-content: center;
     }
+
+    /* Vesture Page */
+    /* .vesture-gallery-section {
+        display: flex;
+    } */
+    .vesture-gallery-section img {
+        width: 64rem !important;
+        height: auto;
+    }
+    
 
 
 
@@ -623,6 +658,7 @@ h3 {
 
 .edu-list {
     text-align: center;
+    list-style-type: none;
 }
 .contact-me-img {
     display: flex;
@@ -797,5 +833,20 @@ margin: 4.6rem 0rem 0rem 0;
     height: auto;
 }
 
+/* choc page */ 
+.choc-page-logo img {
+    margin: 4rem 0rem;
+    width: 14rem;
+}
+
+/* Vesture Page */
+.vesture-gallery-section {
+    align-items: center;
+}
+
+.vesture-gallery-section img {
+    width: 37.5rem;
+    height: auto;
+}
 
 
