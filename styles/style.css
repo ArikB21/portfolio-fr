@@ -2,31 +2,493 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
+.is-flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+}
+
+
+/* Navigation */
 
 .container {
     padding: 1rem 2rem;
 }
 
-.navbar {
+/* changed based on position: fixed feedback comment that part and below if not desired */
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    background-color: white;
 }
 
 .logo-img {
-    height: 3rem;
+    height: 3.2rem; 
     width: auto;
+    margin-top: 1rem;
+}
+
+.nav-menu {
+    background-color: white;
+    margin-top: -0.3rem;
 }
 
 nav a {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: green;
+    color: #02C1D6;
     padding: 1rem 0.5rem;
+    list-style-type: none;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.hamburger {
+    cursor: pointer;
+    width: 46px;
+}
+
+.bar {
+    display: none;
+    width: 100%;
+    height: 0.5rem;
+    margin: 0.5rem auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #24C639;
+}
+
+/* Nav Bar and Hamburger Menu Media Queries */
+@media(max-width: 768px) {
+    .bar {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-24px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -150%;
+        top: 6rem;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        
+    }
+
+    .nav-item {
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        background-color: #02C1D6;
+        padding: 1rem 0;
+        /* margin-left: 4.5rem; */
+    }
+
+    .nav-link {
+        font-size: 1.75rem;
+        color: white;
+        
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+}
+
+/* Initial Idesign Image media Queries */
+
+/* @media(min-width: 900px) {
+    .idesign-mobile img {
+        width: 72.5%;
+    }
+} */
+
+/* @media(min-width: 1000px) {
+    .idesign-mobile img {
+        width: 50%;
+    }
+} */
+
+@media(min-width: 768px) {
+    .idesign-mobile img {
+        max-width: 45.5%;
+    }
+
+
+
+}
+
+@media(min-width: 1200px) {
+    .idesign-mobile img {
+        max-width: 35%;
+    }
+
+
+
 }
 
 
+
+
+@media(min-width: 768px) {
+    .nav-menu {
+        margin: 0 !important;
+    }
+
+    .about-section {
+        display: flex;
+        width: 90%;
+        align-content: center;
+        margin-bottom: 16rem !important;
+        margin-top: 3rem;
+     }
+
+     .about-me-logo img {
+        margin: 1rem 0 0 0;
+     }
+
+     .about-page-text p {
+        padding: 0 4rem;
+     }
+
+     .headshot-section img {
+        margin: -2.5rem 0;
+     }
+     
+     .tea-page-logo img {
+        width: 35rem !important;
+     }
+
+     .project-page-text p {
+        margin: 4rem 0;
+     }
+
+}
+
+
+/* Desktop Media Queries 1200 */
+@media(min-width: 1200px) {
+
+    /* Navigational Items */
+    nav a {
+        font-size: 1.25rem;
+    }
+
+    .nav-menu {
+        margin: 0 !important;
+    }
+
+    /* Home Page Media Queries */
+
+    .btn-div {
+        margin: 3rem 0rem !important;
+    }
+
+    .about-me-txt p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15rem;
+        font-weight: 400;
+        color: #24C639;
+        text-align: center;
+        padding: 0 4rem;
+     }
+
+     h1 {
+        font-size: 1.5rem;
+     }
+
+     .feat-imgs {
+        display: flex;
+        margin-top: 12rem !important; 
+     }
+
+     .ft-img {
+        margin: 0 3rem;
+        width: 18rem !important;
+        height: auto;
+     }
+
+     h2 {
+        font-size: 1.5rem;
+     }
+
+     .abt-me-short {
+        margin: 6rem 0;
+     }
+
+     .about-me-txt {
+        margin: 4rem 0rem!important;
+     }
+
+     /* .full-logo-img {
+        padding: 0 24rem;
+     } */
+
+     .logo-section img {
+        width: 18rem !important;
+        height: auto;
+        margin-top: 1.5rem;
+     }
+
+     .about-me-txt p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem !important;
+        font-weight: 400;
+        color: #24C639;
+        text-align: center;
+        padding: 0rem 32rem !important;
+     }
+
+     .learn-more-btn {
+        font-size: 1.75rem !important;
+        margin-bottom: 1rem;
+     }
+
+
+     .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .footer-logo {
+        height: 4rem !important;
+        width: auto;
+     }
+
+     .social-media-icons {
+        margin-left: 8rem;
+     }
+
+     .social-media-icons a {
+        margin-left: 0rem;
+     }
+
+     /* About Page Media Queries */
+     .alt-page-h2 {
+        font-size: 2rem !important;
+     }
+
+     .about-section {
+        display: flex;
+        width: 80%;
+        align-content: center;
+        margin-bottom: 14rem;
+        margin-top: 3rem;
+     }
+     
+     .about-content {
+        align-items: flex-start;
+     }
+
+     .about-me-logo img {
+        margin-top: 1rem;
+        width: 18.125rem;
+        height: auto;
+     }
+
+     .about-page-text p {
+        padding: 0 18rem;
+        font-size: 1.1rem;
+     }
+
+     .skills-section {
+        display: flex;
+        justify-content: center;
+     }
+
+     .h3-header {
+        font-size: 1.5rem;
+     }
+
+     .h3-subheader {
+        margin-top: 10rem !important;
+        font-size: 1.4rem !important;
+     }
+
+     .h3-subheader {
+        padding: 0rem 4rem;
+     }
+     
+
+     .list-items li {
+        font-size: 1.25rem;
+     }
+
+     .education-section {
+        margin-top: 12rem !important;
+     }
+     
+    .contact {
+        margin: 10rem 0 14rem 0 !important;
+    }
+
+    .contact-section {
+        display: flex;
+    }
+
+    .contact-me-text-container p {
+        margin: 2rem 4rem;
+
+    }
+
+ 
+   /* Projects Page Media Queries */
+    .tea-brand-image {
+        width: 40rem !important;
+        height: auto !important;
+    }
+
+    .tea-prod-img {
+        width: 18rem !important;
+    }
+
+    .choc-brand-image {
+        width: 24rem !important;
+        height: auto !important;
+    }
+
+    .choc-prod-img {
+        width: 18rem !important;
+    }
+
+    .vesture-brand-image {
+        margin-bottom: 1rem;
+        width: 32rem !important;
+        height: auto !important;
+    }
+
+    .ves-prod-img {
+        width: 18rem !important;
+    }
+
+    .sammys-brand-image {
+        margin-bottom: 1rem !important;
+        width: 20rem !important;
+    }
+
+    .sam-prod-img {
+        width: 18rem !important;
+    }
+
+    /* Tea Botanical Project Page */
+    .tea-page-logo img {
+        width: 50rem !important;
+    }
+    .tea-botanical-gallery2 img {
+        width: 24rem;
+        height: auto;
+    }
+
+    /* .tea-botanical-gallery4 {
+
+    } */
+
+    .project-page-text {
+        margin: 5rem 0 !important;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        text-align: right;
+    }
+
+
+    .tea-gallery-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tea-gallery-section img {
+        margin: 2rem 0.5rem;
+        width: 29.5rem !important;
+    }
+
+
+    .tea-botanical-gallery1 img {
+        width: 60rem !important;
+        height: auto;
+    }
+
+    .tea-ad-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tea-botanical-ad img {
+        height: auto;
+    }
+
+    .ad-1 img {
+        width: 32rem;
+        height: auto;
+    }
+
+    .ad-2 img {
+        width: 12rem;
+        height: auto;
+    }
+
+    .tea-botanical-gallery2 img {
+        width: 28rem;
+        height: auto;
+    }
+
+
+
+    .made-using-txt {
+        margin: 12rem 0 10rem 0 !important;
+    }
+     
+    .tea-style-gallery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .choc-page-logo img {
+        width: 28rem !important;
+        height: auto;
+    }
+
+    /* Vesture Page */
+    /* .vesture-gallery-section {
+        display: flex;
+    } */
+    .vesture-gallery-section img {
+        width: 64rem !important;
+        height: auto;
+    }
+    
+
+
+
+
+}
 
 
 /* Hamburger Menu */
@@ -39,3 +501,444 @@ nav a {
     outline: none;
     border: none;
 }
+
+.idesign-mobile {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idesign-mobile img {
+    width: 100%;
+}
+
+
+
+/* Buttons */
+nav a:hover {
+    color: #24C639;
+    transition: 0.5s;
+
+}
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin: 2.3rem 0;
+}
+.view-work-btn {
+    background-color: #02C1D6;
+    color: ghostwhite;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24C639;
+    transition: 0.5s;
+    transform: scale(105%);
+}
+
+.feat-imgs img:hover {
+    transform: scale(110%);
+    transition: 0.5s ease-in-out;
+}
+
+/* Connector Line */
+.connector-line {
+    display: flex;
+    justify-content: center;
+}
+.connector-line-img {
+    height: 11.625rem;
+    width: 0.75rem;
+}
+
+/* Section One */
+section {
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color:#24C639;
+    text-decoration: underline #02C1D6 25%;
+    text-underline-offset: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.feat-imgs {
+    margin: 8rem 0rem 4rem 0rem;
+}
+
+.ft-img {
+    margin-bottom: 4rem;
+    width: 12.25rem;
+}
+
+/* Section Two */
+ h2 {
+    font-family: 'Open Sans', sans-serif;
+    color:#24C639;
+    text-decoration: underline #02C1D6 25%;
+    text-underline-offset: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+
+ .logo-section {
+    justify-content: center;
+    margin-top: 8rem;
+ }
+
+ .full-logo-img {
+    height: 15rem;
+    width: auto;
+ }
+ 
+ .about-me-txt {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+ }
+
+ .about-me-txt p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #24C639;
+    text-align: center;
+    padding: 0 3rem;
+ }
+
+ .learn-more-btn {
+    background-color: #02C1D6;
+    color: ghostwhite;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.75rem 3.25rem;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.footer-logo {
+    height: 3rem;
+    width: auto;
+}
+
+.footer-logo-section {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer-text {
+    margin: 2rem 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    color: #24C639;
+}
+
+.icon-img {
+    padding: 0 0.8rem;
+}
+
+/* About Me Page */
+.alt-page-h2 {
+    text-decoration: none;
+    margin-top: 6rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+.underline {
+    height: 14px;
+    width: 100vhpx;
+    background-color: #02C1D6;
+    margin-top: -1.7rem;
+}
+
+.underline-container {
+    width: 2rem;
+    height: 5rem;
+    color: #02C1D6;
+    display: block;
+}
+
+.headshot-section {
+    margin-top: 3.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    height: 23rem;
+    width: auto;
+}
+
+.about-me-logo {
+    display: flex;
+    justify-content: center;
+    margin: -2.5rem 0 1rem 0;
+}
+
+.about-page-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #02C1D6;
+    font-size: 0.95rem;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color:#24C639;
+    text-decoration: underline #02C1D6 25%;
+    text-underline-offset: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+
+.h3-header {
+    margin-top: 5rem;
+}
+
+.h3-subheader {
+    margin-top: 5rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.list-items {
+    font-family: 'Open Sans', sans-serif;
+    color: #02C1D6;
+    font-size: 1.25rem;
+}
+
+.list-items li {
+    margin: 1rem 0;
+}
+
+.education-header {
+    margin-top: 6rem;
+}
+
+.edu-list {
+    text-align: center;
+    list-style-type: none;
+}
+.contact-me-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.contact-me p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.contact {
+    margin-bottom: 8rem;
+}
+
+/* Projects Page */
+.projects-header {
+    margin-top: 6rem;
+}
+
+.tea-brand-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.tea-brand-image {
+    width: 26.875rem;
+    height: auto;
+}
+
+.tea-prod-img {
+    margin:  0.4rem;
+    width: 10.875rem;
+    height: auto;
+}
+
+.view-work-btn-sm {
+    background-color: #02C1D6;
+    color: ghostwhite;
+    border: none;
+    font-size: 1.4rem;
+    padding: 0.8rem 3.5rem;
+    cursor: pointer;
+}
+
+.choc-prod-img {
+    margin: 0.4rem;
+    width: 10.875rem;
+    height: auto; 
+}
+
+.choc-brand-image {
+    margin: 4.6rem 0rem 4.5rem 0;
+    width: 18rem;
+    height: auto;
+}
+
+/* Vesture */
+.vesture-brand-image {
+    margin-top: 3rem;
+    width: 22rem;
+    height: auto;
+}
+
+.ves-prod-img {
+    margin: 0.4rem;
+    width: 194px;
+    height: auto;
+}
+
+/* Sammys */
+
+.sammys-brand-image {
+    width: 16rem;
+    height: auto;
+}
+
+.sam-prod-img {
+    margin: 0.4rem;
+    width: 10.875rem;
+    height: auto;
+}
+
+.sammys-brand-image {
+margin: 4.6rem 0rem 0rem 0;
+}
+
+.spacing {
+    height: 4rem;
+}
+
+/* Tea Botanical - Page */
+.tea-page-logo img {
+    width: 30rem;
+    height: auto;
+}
+
+.tea-botanical-gallery1 img {
+    width: 24rem;
+    height: auto;
+}
+.project-page-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1.1rem;
+    padding: 0 3.5rem;
+    margin: 2rem 0rem;
+}
+
+.tea-botanical-gallery1 {
+    margin-top: 2rem;
+}
+
+.tea-botanical-gallery2 {
+    margin-top: 0.5rem;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tea-gallery-section img {
+    width: 24rem;
+    height: auto;
+}
+.tea-ad-section {
+    align-items: center;
+}
+
+.tea-ad-section img {
+    width: 24rem;
+    margin: 1.5rem 0.5rem;
+}
+.tea-botanical-ad {
+    margin-top: 3rem;
+}
+
+.project-page-text-btm {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1.1rem;
+    padding: 0 3.5rem;
+    margin-top: 5rem;
+}
+
+.made-using-txt {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #24C639;
+    font-size: 1rem;
+    padding: 0 5rem;
+    margin-top: 5rem;
+}
+
+.ad-1 {
+    display: flex !important;
+}
+
+.tea-botanical-gallery1 img {
+    width: 24rem;
+    height: auto;
+}
+
+.tea-botanical-gallery2 img {
+    width: 24rem;
+    height: auto;
+}
+
+/* choc page */ 
+.choc-page-logo img {
+    margin: 4rem 0rem;
+    width: 14rem;
+}
+
+/* Vesture Page */
+.vesture-gallery-section {
+    align-items: center;
+}
+
+.vesture-gallery-section img {
+    width: 37.5rem;
+    height: auto;
+}
+
+
