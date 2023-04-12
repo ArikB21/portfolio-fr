@@ -467,7 +467,7 @@ nav a {
         display: flex;
     } */
     .vesture-gallery-section img {
-        width: 48rem !important;
+        width: 64rem !important;
         height: auto;
     }
     
@@ -906,7 +906,8 @@ margin: 4.6rem 0rem 0rem 0;
 }
 
 .vesture-gallery-section img {
-    width: 37.5rem;
+    /* width: 37.5rem; */
+    width: 24rem;
     height: auto;
 }
 
