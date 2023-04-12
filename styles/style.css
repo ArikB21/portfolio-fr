@@ -46,7 +46,7 @@ nav a {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: #24C639;
+    color: #02C1D6;
     padding: 1rem 0.5rem;
     list-style-type: none;
 }
@@ -207,7 +207,7 @@ nav a {
     /* Home Page Media Queries */
 
     .btn-div {
-        margin: 6rem 0 !important;
+        margin: 3rem 0rem !important;
     }
 
     .about-me-txt p {
@@ -230,7 +230,7 @@ nav a {
 
      .ft-img {
         margin: 0 3rem;
-        width: 20rem !important;
+        width: 18rem !important;
         height: auto;
      }
 
@@ -297,7 +297,7 @@ nav a {
 
      .about-section {
         display: flex;
-        width: 90%;
+        width: 80%;
         align-content: center;
         margin-bottom: 14rem;
         margin-top: 3rem;
@@ -318,6 +318,11 @@ nav a {
         font-size: 1.1rem;
      }
 
+     .skills-section {
+        display: flex;
+        justify-content: center;
+     }
+
      .h3-header {
         font-size: 1.5rem;
      }
@@ -326,6 +331,11 @@ nav a {
         margin-top: 10rem !important;
         font-size: 1.4rem !important;
      }
+
+     .h3-subheader {
+        padding: 0rem 4rem;
+     }
+     
 
      .list-items li {
         font-size: 1.25rem;
@@ -338,10 +348,20 @@ nav a {
     .contact {
         margin: 10rem 0 14rem 0 !important;
     }
+
+    .contact-section {
+        display: flex;
+    }
+
+    .contact-me-text-container p {
+        margin: 2rem 4rem;
+
+    }
+
  
    /* Projects Page Media Queries */
     .tea-brand-image {
-        width: 33.5rem !important;
+        width: 40rem !important;
         height: auto !important;
     }
 
@@ -349,12 +369,19 @@ nav a {
         width: 18rem !important;
     }
 
+    .choc-brand-image {
+        width: 24rem !important;
+        height: auto !important;
+    }
+
     .choc-prod-img {
         width: 18rem !important;
     }
 
     .vesture-brand-image {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
+        width: 32rem !important;
+        height: auto !important;
     }
 
     .ves-prod-img {
@@ -362,7 +389,8 @@ nav a {
     }
 
     .sammys-brand-image {
-        margin-bottom: 2rem !important;
+        margin-bottom: 1rem !important;
+        width: 20rem !important;
     }
 
     .sam-prod-img {
@@ -371,7 +399,7 @@ nav a {
 
     /* Tea Botanical Project Page */
     .tea-page-logo img {
-        width: 42.563rem !important;
+        width: 50rem !important;
     }
     .tea-botanical-gallery2 img {
         width: 24rem;
@@ -384,7 +412,12 @@ nav a {
 
     .project-page-text {
         margin: 5rem 0 !important;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        text-align: right;
     }
+
 
     .tea-gallery-section {
         display: flex;
@@ -437,6 +470,21 @@ nav a {
         justify-content: center;
     }
 
+    .choc-page-logo img {
+        width: 28rem !important;
+        height: auto;
+    }
+
+    /* Vesture Page */
+    /* .vesture-gallery-section {
+        display: flex;
+    } */
+    .vesture-gallery-section img {
+        width: 64rem !important;
+        height: auto;
+    }
+    
+
 
 
 
@@ -468,6 +516,11 @@ nav a {
 
 
 /* Buttons */
+nav a:hover {
+    color: #24C639;
+    transition: 0.5s;
+
+}
 .btn-div {
     display: flex;
     justify-content: center;
@@ -480,6 +533,17 @@ nav a {
     font-size: 1.6rem;
     padding: 1rem 5rem;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #24C639;
+    transition: 0.5s;
+    transform: scale(105%);
+}
+
+.feat-imgs img:hover {
+    transform: scale(110%);
+    transition: 0.5s ease-in-out;
 }
 
 /* Connector Line */
@@ -684,6 +748,7 @@ h3 {
 
 .edu-list {
     text-align: center;
+    list-style-type: none;
 }
 .contact-me-img {
     display: flex;
@@ -749,6 +814,8 @@ h3 {
 /* Vesture */
 .vesture-brand-image {
     margin-top: 3rem;
+    width: 22rem;
+    height: auto;
 }
 
 .ves-prod-img {
@@ -760,7 +827,7 @@ h3 {
 /* Sammys */
 
 .sammys-brand-image {
-    width: 194px;
+    width: 16rem;
     height: auto;
 }
 
@@ -858,5 +925,20 @@ margin: 4.6rem 0rem 0rem 0;
     height: auto;
 }
 
+/* choc page */ 
+.choc-page-logo img {
+    margin: 4rem 0rem;
+    width: 14rem;
+}
+
+/* Vesture Page */
+.vesture-gallery-section {
+    align-items: center;
+}
+
+.vesture-gallery-section img {
+    width: 37.5rem;
+    height: auto;
+}
 
 
