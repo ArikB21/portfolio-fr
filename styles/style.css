@@ -398,10 +398,16 @@ nav a {
     }
 
     /* Tea Botanical Project Page */
-    .tea-page-logo img {
+
+    .page-logo img {
         width: 50rem !important;
     }
     .tea-botanical-gallery2 img {
+        width: 24rem;
+        height: auto;
+    }
+
+    .gallery2 img {
         width: 24rem;
         height: auto;
     }
@@ -424,21 +430,42 @@ nav a {
         justify-content: center;
     }
 
+    .gallery-section {
+        display: flex;
+        justify-content: center;
+    }
+/* 
     .tea-gallery-section img {
+        margin: 2rem 0.5rem;
+        width: 29.5rem !important;
+    } */
+
+    .gallery-section img {
         margin: 2rem 0.5rem;
         width: 29.5rem !important;
     }
 
-
+/* 
     .tea-botanical-gallery1 img {
+        width: 60rem !important;
+        height: auto;
+    } */
+
+    .gallery1 img {
         width: 60rem !important;
         height: auto;
     }
 
-    .tea-ad-section {
+    /* .tea-ad-section {
+        display: flex;
+        justify-content: center;
+    } */
+
+    .ad-section {
         display: flex;
         justify-content: center;
     }
+
 
     .tea-botanical-ad img {
         height: auto;
@@ -454,7 +481,12 @@ nav a {
         height: auto;
     }
 
-    .tea-botanical-gallery2 img {
+    /* .tea-botanical-gallery2 img {
+        width: 28rem;
+        height: auto;
+    } */
+
+    .gallery2 img {
         width: 28rem;
         height: auto;
     }
@@ -846,12 +878,17 @@ margin: 4.6rem 0rem 0rem 0;
 }
 
 /* Tea Botanical - Page */
-.tea-page-logo img {
+.page-logo img {
     width: 30rem;
     height: auto;
 }
 
-.tea-botanical-gallery1 img {
+/* .tea-botanical-gallery1 img {
+    width: 24rem;
+    height: auto;
+} */
+
+.gallery1 img {
     width: 24rem;
     height: auto;
 }
@@ -864,11 +901,19 @@ margin: 4.6rem 0rem 0rem 0;
     margin: 2rem 0rem;
 }
 
-.tea-botanical-gallery1 {
+/* .tea-botanical-gallery1 {
+    margin-top: 2rem;
+} */
+
+.gallery1 {
     margin-top: 2rem;
 }
 
-.tea-botanical-gallery2 {
+/* .tea-botanical-gallery2 {
+    margin-top: 0.5rem;
+} */
+
+.gallery2 {
     margin-top: 0.5rem;
 }
 
@@ -877,18 +922,34 @@ margin: 4.6rem 0rem 0rem 0;
     justify-content: center;
 }
 
-.tea-gallery-section img {
+/* .tea-gallery-section img {
+    width: 24rem;
+    height: auto;
+} */
+
+.gallery-section img {
     width: 24rem;
     height: auto;
 }
-.tea-ad-section {
+
+/* .tea-ad-section {
+    align-items: center;
+} */
+
+.ad-section {
     align-items: center;
 }
 
-.tea-ad-section img {
+.ad-section img {
     width: 24rem;
     margin: 1.5rem 0.5rem;
 }
+
+.ad-section img {
+    width: 24rem;
+    margin: 1.5rem 0.5rem;
+}
+
 .tea-botanical-ad {
     margin-top: 3rem;
 }
@@ -915,12 +976,22 @@ margin: 4.6rem 0rem 0rem 0;
     display: flex !important;
 }
 
-.tea-botanical-gallery1 img {
+/* .tea-botanical-gallery1 img {
+    width: 24rem;
+    height: auto;
+} */
+
+.gallery1 img {
     width: 24rem;
     height: auto;
 }
 
-.tea-botanical-gallery2 img {
+/* .tea-botanical-gallery2 img {
+    width: 24rem;
+    height: auto;
+} */
+
+.gallery2 img {
     width: 24rem;
     height: auto;
 }
