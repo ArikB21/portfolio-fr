@@ -6,3 +6,12 @@ hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 
 });
+
+let links = document.querySelectorAll(".nav-menu a");
+let bodyId = document.querySelector("body").id;
+
+for(let link of links) {
+    if(link.dataset.active == bodyId) {
+        link.classList.add("active");
+    }
+}

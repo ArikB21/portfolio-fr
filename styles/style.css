@@ -17,6 +17,19 @@
     padding: 1rem 2rem;
 }
 
+/* .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    background-color: white;
+} */
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -71,6 +84,14 @@ nav a {
 
 /* Nav Bar and Hamburger Menu Media Queries */
 @media(max-width: 768px) {
+    /* .navbar {
+        padding-top: 1.5rem;
+    } */
+
+    ul {
+        padding-inline-start: 0px;
+    }
+
     .bar {
         display: block;
     }
@@ -87,7 +108,19 @@ nav a {
         transform: translateY(-24px) rotate(-45deg);
     }
 
+    .hamburger.active {
+        transform: translateY(3px);
+
+    }
+
+    .hamburger.active .bar {
+        background-color:  #02C1D6 !important;
+    }
+
+
     .nav-menu {
+        display: flex;
+        justify-content: center;
         position: fixed;
         left: -150%;
         top: 6rem;
@@ -100,22 +133,35 @@ nav a {
         
     }
 
-    .nav-item {
+    /* .nav-item {
         margin-top: 0.5rem;
         margin-bottom: 2rem;
         background-color: #02C1D6;
         padding: 1rem 0;
+        /* margin-left: 4.5rem;
+    } */
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        padding: 1rem 0;
+        background-image: url(../images/nav-link-outline.png);
+        background-repeat: no-repeat;
+        background-position: center;
         /* margin-left: 4.5rem; */
     }
 
     .nav-link {
         font-size: 1.75rem;
-        color: white;
+        color: #02C1D6;
         
     }
 
     .nav-menu.active {
         left: 0;
+        padding: 4rem 0;
     }
 
 }
@@ -124,6 +170,10 @@ nav a {
 @media(min-width: 768px) {
     .idesign-mobile img {
         max-width: 45.5%;
+    }
+
+    .nav-menu.active {
+        left: 0;
     }
 
 
@@ -512,7 +562,8 @@ nav a {
 
 
 /* Buttons */
-nav a:hover {
+nav a:hover,
+nav a.active {
     color: #24C639;
     transition: 0.5s;
 
