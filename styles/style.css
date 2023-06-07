@@ -430,6 +430,12 @@ nav a {
         width: 18rem !important;
     }
 
+    .page-prod-img {
+        width: 18rem !important;
+        height: 13rem !important;
+    }
+
+
     /* Tea Botanical Project Page */
 
     .page-logo img {
@@ -444,8 +450,7 @@ nav a {
         width: 24rem;
         height: auto;
     }
-
-
+  
 
     .project-page-text {
         margin: 5rem 0 !important;
@@ -529,10 +534,24 @@ nav a {
         width: 64rem !important;
         height: auto;
     }
+
+    .pageturn-gallery-section {
+        display: flex;
+    }
+
+    .pageturn-gallery-section img {
+        width: 64rem !important;
+        height: auto;
+    }
+    
+    .pageturn-gallery2 img {
+        width: 38rem !important;
+    }
+    
     
 
-
-
+    
+    
 
 }
 
@@ -892,6 +911,22 @@ margin: 4.6rem 0rem 0rem 0;
     height: 4rem;
 }
 
+/* Pageturn */
+.pageturn-brand-image {
+    width: 12rem;
+    height: auto;
+}
+
+.page-prod-img {
+    margin: 0.4rem;
+    width: 10.875rem;
+    height: auto;
+}
+
+.pageturn-brand-image {
+    margin: 4.6rem 0rem 4.6rem 0;
+}
+
 /* Tea Botanical - Page */
 .page-logo img {
     width: 30rem;
@@ -1002,5 +1037,31 @@ margin: 4.6rem 0rem 0rem 0;
     width: 37.5rem;
     height: auto;
 }
+
+/* Pageturn Page */
+.pageturn-logo img {
+    width: 27rem;
+    height: auto;
+    padding: 3rem;
+}
+
+
+.pageturn-gallery-section {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.pageturn-gallery-section img {
+    width: 30rem !important;
+    height: auto;
+}
+
+.pageturn-gallery-section .gallery2 img {
+    width: 28rem !important;
+}
+
+
+
+
 
 
