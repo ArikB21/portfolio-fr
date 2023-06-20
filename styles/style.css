@@ -430,7 +430,7 @@ nav a {
         width: 18rem !important;
     }
 
-    .page-prod-img {
+    .page-prod-img img {
         width: 18rem !important;
         height: 13rem !important;
     }
@@ -535,6 +535,8 @@ nav a {
         height: auto;
     }
 
+    /* Pageturn Page */
+
     .pageturn-gallery-section {
         display: flex;
     }
@@ -548,6 +550,19 @@ nav a {
         width: 38rem !important;
     }
     
+    /* Paw Express Page */
+    .pawexpress-gallery-section {
+        display: flex;
+    }
+
+    .pawexpress-gallery-section img {
+        width: 54rem !important;
+        height: auto;
+    }
+    
+    .pawexpress-gallery-section img {
+        width: 24rem !important;
+    }
     
 
     
@@ -919,12 +934,19 @@ margin: 4.6rem 0rem 0rem 0;
 
 .page-prod-img {
     margin: 0.4rem;
-    width: 10.875rem;
+    width: 12rem;
     height: auto;
 }
 
 .pageturn-brand-image {
     margin: 4.6rem 0rem 4.6rem 0;
+}
+
+/* Paw Express */
+.paw-prod-img {
+    margin: 0.4rem;
+    width: 8rem !important;
+    height: auto;
 }
 
 /* Tea Botanical - Page */
@@ -1058,6 +1080,26 @@ margin: 4.6rem 0rem 0rem 0;
 
 .pageturn-gallery-section .gallery2 img {
     width: 28rem !important;
+}
+
+/* Paw Express Page */
+.pawexpress-logo img {
+    width: 24rem;
+    height: auto;
+    padding: 3rem;
+}
+
+.pawexpress-gallery-section {
+    display: flex;
+}
+
+.pawexpress-gallery-section img {
+    width: 24rem !important;
+    height: auto;
+}
+    
+.pawexpress-gallery-section img {
+    width: 24rem !important;
 }
 
 
