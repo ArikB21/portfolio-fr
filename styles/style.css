@@ -563,9 +563,7 @@ nav a {
     .pawexpress-gallery-section img {
         width: 24rem !important;
     }
-    
-
-    
+       
     
 
 }
@@ -625,6 +623,28 @@ button:hover {
 .feat-imgs img:hover {
     transform: scale(110%);
     transition: 0.5s ease-in-out;
+}
+
+/* Filter Buttons */
+.filter-btn {
+    background-color: #02C1D6;
+    margin: 3.5rem 1rem;
+    padding: 0.75rem 0.75rem;
+    font-size: 1.25rem;
+    color: #fff;
+    border: none;
+}
+
+.show {
+    display: block;
+}
+
+.proj-object {
+    display: none;
+}
+
+.filter-btn.active {
+    background-color: #24C639;
 }
 
 /* Connector Line */
@@ -1101,6 +1121,68 @@ margin: 4.6rem 0rem 0rem 0;
 .pawexpress-gallery-section img {
     width: 24rem !important;
 }
+
+/* Contact Me Form */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #02C1D6; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 12px; /* Add a top margin */
+    margin-bottom: 24px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  label {
+    font-size: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #24C639;
+  }
+
+  input[type=email] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #02C1D6; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #02C1D6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #24C639;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-container {
+    border-radius: 5px;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-h3 {
+    margin-top: 6rem;
+  }
 
 
 
