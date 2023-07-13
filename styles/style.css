@@ -333,36 +333,42 @@ nav a {
         width: 80%;
         align-content: center;
         margin-bottom: 14rem;
-        margin-top: 3rem;
+        margin-top: 4rem;
      }
      
      .about-content {
-        align-items: flex-start;
+        align-items: flex-end;
      }
 
      .about-me-logo img {
         margin-top: 1rem;
-        width: 18.125rem;
+        width: 16rem;
         height: auto;
      }
 
      .about-page-text p {
         padding: 0 18rem;
         font-size: 1.1rem;
+        text-align: left;
      }
 
      .skills-section {
         display: flex;
         justify-content: center;
+        width: 100%;
      }
 
      .h3-header {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        font-weight: 400;
      }
 
      .h3-subheader {
-        margin-top: 10rem !important;
-        font-size: 1.4rem !important;
+        margin-top: 8.5rem !important;
+        font-size: 2rem !important;
+        text-align: center !important;
+        display: flex;
+        justify-content: left;
      }
 
      .h3-subheader {
@@ -372,6 +378,7 @@ nav a {
 
      .list-items li {
         font-size: 1.25rem;
+        text-align: left;
      }
 
      .education-section {
@@ -702,6 +709,7 @@ h1 {
     width: auto;
  }
  
+
  .about-me-txt {
     display: flex;
     justify-content: center;
@@ -831,6 +839,7 @@ h3 {
     text-decoration: none;
     font-weight: 400;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .list-items {
@@ -1184,6 +1193,28 @@ input[type=text], select, textarea {
     margin-top: 6rem;
   }
 
+  /* New Additions - Animated Text */
+  .animated-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color: #24C639;  
+  }
+
+  .initial-text-section {
+    margin: 12rem 0;
+    height: 8rem;
+  }
+
+  /* NEED TO ADD MEDIA QUERIES */
+  .skills-div {
+    /* background-color: green; */
+    background-image: url(images\skills-dev-outline.webp);
+    margin-right: 2rem;
+    width: 28rem;
+    height: 36rem;
+  }
 
 
 
