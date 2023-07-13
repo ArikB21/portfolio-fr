@@ -14,7 +14,7 @@ for(let link of links) {
     if(link.dataset.active == bodyId) {
         link.classList.add("active");
     }
-};
+}
 
 // filterObjects("all");
 
@@ -62,9 +62,3 @@ for(let link of links) {
 //     });
 
 // }
-
-new TypeIt(".multipleStrings", {
-    strings: ["I create UI/UX solutions", "for everyday problems"],
-    speed: 50,
-    waitUntilVisible: true,
-  }).go();
