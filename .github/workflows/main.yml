@@ -17,3 +17,4 @@ jobs:
         server: ftp.arikblaushtein.com
         username: github@arikblaushtein.com
         password: ${{ secrets.FTP_PASSWORD }}
+

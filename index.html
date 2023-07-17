@@ -47,19 +47,24 @@
             </div>
         </div>
     </header>
-        <div class="idesign-mobile">
+        <div class="initial-text-section">
+            <p>
+            <span class="animated-text"></span>
+            </p>
+        </div>
+        <!-- <div class="idesign-mobile">
             <img src="images/mobile-idesign-img.svg" alt="I Design Home Page Image">
-        </div>
-        <div class="btn-div">
+        </div> -->
+        <!-- <div class="btn-div">
         <a href="projects.html"><button class="view-work-btn">view work</button></a>
-        </div>
-        <div class="connector-line">
+        </div> -->
+        <!-- <div class="connector-line">
             <img class="connector-line-img" src="images/Portfolio connector line.svg" alt="Connector Line">
-        </div>
-        <section class="is-flex">
+        </div> -->
+        <section class="is-flex homepage-section">
             <div>
                 <div>
-                    <h1>Featured Projects. NOT CHANGED</h1>
+                    <h1>Featured Projects.</h1>
                 </div>
                 <div class="feat-imgs">
                     <div>
@@ -73,27 +78,81 @@
                         </a>
                     </div>
                 </div>
-                <div class="connector-line">
-                    <img class="connector-line-img" src="images/Portfolio connector line.svg" alt="Connector Line">
+                <div class="btn-div">
+                    <a href="projects.html">
+                    <button class="learn-more-btn">view more.</button>
+                    </a>
                 </div>
+                <!-- <div class="connector-line">
+                    <img class="connector-line-img" src="images/Portfolio connector line.svg" alt="Connector Line">
+                </div> -->
             </div>
         </section>
-        <section class="is-flex">
+        <!-- <section class="is-flex about-me-section">
             <div>
-                <div>
-                    <h2>About Me.</h2>
-                </div>
-                <div class="is-flex logo-section">
-                    <img class="full-logo-img" src="images/full-ab-logo.png" alt="Full Logo">
+                <div class="feat-imgs">
+                    <div class="is-flex logo-section">
+                        <img class="full-logo-img" src="images/full-ab-logo.png" alt="Full Logo">
+                    </div>
+                    <div>
                 </div>
                 <div class="about-me-txt">
                     <p>I am a graphic and UI/UX designer that creates effective solutions by combining good design with a developer-friendly mindset</p>
                 </div>
+            </div>
+        </section>
+        <div class="btn-div">
+            <a href="projects.html">
+            <button class="learn-more-btn">view more.</button>
+            </a>
+        </div> -->
+        <!-- <section class="is-flex">
+            <div>
+                <div>
+                    <h2>About Me.</h2>
+                </div>
+                <div class="about-me-container">
+                    <div class="about-me-section">
+                        <div class="is-flex logo-section">
+                            <img class="full-logo-img" src="images/full-ab-logo.webp" alt="Full Logo">
+                        </div>
+                        <div class="about-me-txt">
+                            <p>I am a graphic and UI/UX designer that creates effective solutions by combining good design with a developer-friendly mindset</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="btn-div">
+                        <a href="about.html">
+                        <button class="learn-more-btn">learn more</button>
+                        </a>
+                    </div>
+            </div>
+            <div class="about-wrapper">
+                <img class="full-logo-img" src="images/full-ab-logo.webp" alt="Full Logo">
+                <div class="about-text-box">
+                    <p>I am a graphic and UI/UX designer that creates effective solutions by combining good design with a developer-friendly mindset</p>
+                </div>
+            </div>
+        </section> -->
+        <section class="is-flex justify homepage-section">
+        <div class="about-wrapper">
+                <img class="full-logo-img" src="images/full-ab-logo.webp" alt="Full Logo">
+            <div class="about-text-box justify">
+                <p>I am a graphic and UI/UX designer that creates effective solutions by combining good design with a developer-friendly mindset.</p>
                 <div class="btn-div">
                     <a href="about.html">
-                    <button class="learn-more-btn">learn more</button>
+                    <button class="learn-more-btn">learn more.</button>
                     </a>
                 </div>
+            </div>
+        </div>  
+        </section>
+        <!-- <div class="btn-div">
+            <a href="projects.html">
+            <button class="learn-more-btn">view more.</button>
+            </a>
+        </div> -->
+        </section>     
                 <div>
                     <h3 class="contact-h3">Contact Me.</h3>
                     <div class="contact-container">
@@ -118,7 +177,6 @@
 
                 </div>
             </div>
-        </section>
 <Footer>
             <div class="footer-section">
                 <div class="footer-logo-section">
@@ -134,5 +192,14 @@
                 </div>
 </Footer>
 <script src="scripts/script.js"></script>
+<!-- <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script src="/path/to/typeit/source"></script> -->
+<script src="plugins/ityped-master/dist/index.min.js"></script>
+<script>
+    ityped.init(document.querySelector('.animated-text'), {
+        showCursor: true,
+        strings: ['I create user-centric designs', 'to solve everyday problems.']
+    });
+</script>
 </body>
 </html>
