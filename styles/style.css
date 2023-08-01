@@ -655,7 +655,7 @@ nav a {
         display: flex;
     }
     .vesture-gallery-section img {
-        width: 48rem !important;
+        width: 46rem !important;
         height: auto;
     }
 
@@ -1243,7 +1243,6 @@ margin: 4.6rem 0rem 0rem 0;
 
 
 .pageturn-gallery-section {
-    /* display: flex; */
     justify-content: center;
 }
 
