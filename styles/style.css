@@ -267,7 +267,7 @@ nav a {
         display: flex;
         width: 90%;
         align-content: center;
-        margin-bottom: 16rem !important;
+        margin-bottom: 3rem !important;
         margin-top: 3rem;
      }
 
@@ -526,7 +526,7 @@ nav a {
      }
 
      .education-section {
-        margin-top: 12rem !important;
+        margin-top: 0rem !important;
         margin-bottom: 12rem !important;
      }
      
@@ -681,7 +681,7 @@ nav a {
         display: flex;
     }
     .vesture-gallery-section img {
-        width: 64rem !important;
+        width: 48rem !important;
         height: auto;
     }
 
@@ -1030,7 +1030,7 @@ h3 {
 }
 
 .education-header {
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 .edu-list {
@@ -1171,7 +1171,7 @@ margin: 4.6rem 0rem 0rem 0;
     color: #24C639;
     font-size: 1.1rem;
     /* padding: 0 5rem; */
-    margin: 1rem 0rem;
+    margin: 3rem 3rem;
 }
 
 
@@ -1265,7 +1265,7 @@ margin: 4.6rem 0rem 0rem 0;
 
 /* Pageturn Page */
 .pageturn-logo img {
-    width: 27rem;
+    width: 24rem;
     height: auto;
     padding: 3rem;
 }
@@ -1361,6 +1361,7 @@ input[type=text], select, textarea {
     padding: 3rem 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 6rem;
   }
 
   .contact-h3 {
