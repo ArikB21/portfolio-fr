@@ -17,18 +17,7 @@
     padding: 1rem 2rem;
 }
 
-/* .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    padding: 10px 40px;
-    background-color: white;
-} */
+
 
 .nav-container {
     display: flex;
@@ -84,9 +73,6 @@ nav a {
 
 /* Nav Bar and Hamburger Menu Media Queries */
 @media(max-width: 768px) {
-    /* .navbar {
-        padding-top: 1.5rem;
-    } */
 
     ul {
         padding-inline-start: 0px;
@@ -133,14 +119,6 @@ nav a {
         
     }
 
-    /* .nav-item {
-        margin-top: 0.5rem;
-        margin-bottom: 2rem;
-        background-color: #02C1D6;
-        padding: 1rem 0;
-        /* margin-left: 4.5rem;
-    } */
-
     .nav-item {
         display: flex;
         justify-content: center;
@@ -150,7 +128,6 @@ nav a {
         background-image: url(../images/nav-link-outline.png);
         background-repeat: no-repeat;
         background-position: center;
-        /* margin-left: 4.5rem; */
     }
 
     .nav-link {
@@ -216,9 +193,6 @@ nav a {
     }
 
     .skills-div {
-        /* background-color: green; */
-        /* background-image: url(images\skills-dev-outline.webp); */
-        /* margin-right: 2rem; */
         width: 28rem !important;
         height: 36rem !important;
         border-color: ghostwhite;
@@ -725,9 +699,6 @@ nav a {
     }
 
     .skills-div {
-        /* background-color: green; */
-        /* background-image: url(images\skills-dev-outline.webp); */
-        /* margin-right: 2rem; */
         width: 28rem;
         height: 36rem;
         border-color: ghostwhite;
@@ -1382,18 +1353,12 @@ input[type=text], select, textarea {
     height: 6rem;
   }
 
-  /* NEED TO ADD MEDIA QUERIES */
   .skills-div {
-    /* background-color: green; */
-    /* background-image: url(images\skills-dev-outline.webp); */
-    /* margin-right: 2rem; */
     width: 24rem;
     height: 20rem;
     align-items: center;
     justify-content: center;
     border-color: ghostwhite;
-    /* margin: 0 2rem 0 0rem; */
-    /* padding-top: 2rem; */
   }
 
   /* Additional project page stylings new addition */
@@ -1417,10 +1382,6 @@ input[type=text], select, textarea {
     justify-content: center;
 
 }
-
-/* .full-logo-img {
-    padding: 2rem 0;
-} */
 
 .about-text-box {
     font-family: 'Open Sans', sans-serif;
