@@ -192,13 +192,13 @@ nav a {
         margin: -2.5rem 0 0rem 0;
     }
 
-    .skills-div {
+    /* .skills-div {
         width: 28rem !important;
         height: 36rem !important;
         border-color: ghostwhite;
         margin: 0 2rem 0 2rem !important;
         padding-bottom: 4rem !important;
-      }
+      } */
 
      
     .homepage-section {
@@ -237,13 +237,13 @@ nav a {
         margin: 0 !important;
     }
 
-    .about-section {
+    /* .about-section {
         display: flex;
         width: 90%;
         align-content: center;
         margin-bottom: 3rem !important;
         margin-top: 3rem;
-     }
+     } */
 
      .about-me-logo img {
         margin: 1rem 0 0 0;
@@ -265,12 +265,12 @@ nav a {
         margin: 4rem 0;
      }
 
-     .proj-page-div {
+     /* .proj-page-div {
         display: flex;
         justify-content: space-between;
         width: 70%;
         padding: 0 4rem;
-     }
+     } */
 
      .about-me-section {
         display: flex;
@@ -308,9 +308,7 @@ nav a {
         align-items: center;
     }
 
-    .ad-section img {
-        margin-left: 8rem !important;
-    }
+
 
     .ad-section img {
         width: 20rem !important;
@@ -330,9 +328,13 @@ nav a {
     }
 
     .proj-page-section {
-        margin: 12rem !important;
+        /* margin: 12rem !important; */
         display: flex;
         justify-content: center;
+      }
+
+      .project-showcase {
+        margin: 2rem 0;
       }
 
 
@@ -361,12 +363,13 @@ nav a {
         margin: 3rem 0rem !important;
     }
 
-    .about-me-txt p {
+    .about-page-txt p {
         font-family: 'Open Sans', sans-serif;
         font-size: 12rem;
         font-weight: 400;
         color: #24C639;
         text-align: center;
+        padding: 2rem 6rem !important;
      }
 
      h1 {
@@ -464,11 +467,11 @@ nav a {
         height: auto;
      }
 
-     .about-page-text p {
-        padding: 0 12rem;
+     /* .about-page-text p {
+        padding: 0 4rem;
         font-size: 1.1rem;
         text-align: left;
-     }
+     } */
 
      .skills-section {
         display: flex;
@@ -814,8 +817,13 @@ h1 {
     justify-content: center;
 }
 
-.feat-imgs {
-    margin: 8rem 0rem 4rem 0rem;
+.feat-imgs a {
+    display: flex;
+    justify-content: center;
+}
+
+.feat-imgs{
+    justify-content: center;
 }
 
 .ft-img {
@@ -1038,7 +1046,7 @@ h3 {
 }
 
 .tea-brand-image {
-    width: 26.875rem;
+    width: 18rem;
     height: auto;
 }
 
@@ -1397,4 +1405,61 @@ input[type=text], select, textarea {
 }
 
 
+/* Bugs */
+@media(min-width: 1440px) {
+    .about-page-text {
+        padding: 0 6rem;
+    }
+}
+
+@media(min-width: 1600px) {
+    .about-page-text {
+        padding: 0 12rem;
+    }
+}
+
+@media(min-width: 1200px) {
+/* Previously min-width: 768 */
+
+.about-section {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    margin-bottom: 3rem !important;
+    margin-top: 3rem;
+ }
+
+ .skills-div {
+    width: 28rem !important;
+    height: 36rem !important;
+    border-color: ghostwhite;
+    margin: 0 2rem 0 2rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+    .ad-section img {
+        margin-left: 8rem !important;
+    }
+
+    .proj-page-div {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        padding: 0 4rem;
+     }
+
+     .project-showcase {
+        margin: 8rem 0;
+      }
+
+
+}
+
+@media(max-width: 1199px) {
+    .skills-container {
+        justify-content: center;
+        display: flex;
+    }
+
+}
 
